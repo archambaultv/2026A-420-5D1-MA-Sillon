@@ -1,0 +1,42 @@
+---
+name: Récit utilisateur
+description: Un récit du backlog produit — un ticket par récit
+title: "Titre court du récit"
+body:
+  - type: textarea
+    id: recit
+    attributes:
+      label: Récit
+      description: >-
+        Du point de vue de la personne utilisatrice, sans solution technique.
+      placeholder: >-
+        En tant que [rôle], je veux [capacité] afin de [bénéfice].
+    validations:
+      required: true
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte
+      description: Une ou deux phrases si le titre ne suffit pas.
+  - type: textarea
+    id: criteres
+    attributes:
+      label: Critères d'acceptation
+      description: >-
+        Obligatoires dès que le récit est visé par un sprint : à la soumission
+        pour les récits du sprint 1, au raffinement du backlog pour ceux des
+        sprints 2 et 3. Des conditions observables qui permettent de trancher,
+        sans discussion, si le récit est terminé. Pensez aux cas d'erreur et
+        aux cas limites.
+      placeholder: |
+        - [ ] Quand …, alors …
+        - [ ] Si …, alors …
+  - type: markdown
+    attributes:
+      value: >-
+        **N'oubliez pas** : ajoutez le libellé `priorité:` qui convient
+        (`must`, `should`, `could`, `wont`) et le libellé `épique:`
+        correspondant, puis ajoutez le ticket au projet GitHub et renseignez
+        ses champs **Points** et **Sprint**. Ces champs se corrigent d'un
+        sprint à l'autre : rouvrez le ticket au raffinement plutôt que d'en
+        créer un nouveau.

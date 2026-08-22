@@ -1,0 +1,16 @@
+fichier	titre	epique	priorite	points	sprint
+01-inscrire-disque.md	Inscrire un disque	catalogue	must	3	1
+02-consulter-liste.md	Consulter la liste de ses disques	catalogue	must	2	1
+03-chercher-artiste-titre.md	Chercher par artiste ou titre	recherche	must	5	1
+04-modifier-disque.md	Modifier un disque	catalogue	must	3	1
+05-supprimer-disque.md	Supprimer un disque	catalogue	must	2	1
+06-noter-pret.md	Noter un prêt et son retour	prêts	must	5	2
+07-importer-csv.md	Importer un CSV bien formé	import/export	should	8	2
+08-prets-en-retard.md	Voir les prêts en retard	prêts	should	2	2
+09-filtrer-genre-decennie.md	Filtrer par genre et par décennie	recherche	should	3	3
+10-correspondre-colonnes.md	Faire correspondre les colonnes d'un CSV	import/export	could	5	3
+11-stats-decennie.md	Statistiques par décennie	statistiques	could	3	3
+12-marquer-a-vendre.md	Marquer des disques « à vendre »	catalogue	could	2	3
+13-photo-pochette.md	Joindre une photo de pochette	catalogue	could	3	3
+14-sync-en-ligne.md	Synchroniser avec un service en ligne	import/export	wont	-	-
+15-appli-mobile.md	Application mobile compagnon	compagnon mobile	wont	-	-
